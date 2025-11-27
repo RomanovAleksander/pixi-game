@@ -1,0 +1,72 @@
+{
+  "levels": [
+    {
+      "id": 0,
+      "timeLimit": 60,
+      "enemiesToKill": 5,
+      "enemies": [
+        { "x": 100, "y": 200, "speed": 1.5, "type": "fighter" },
+        { "x": 300, "y": 150, "speed": 1.7, "type": "fighter" },
+        { "x": 500, "y": 300, "speed": 1.2, "type": "fighter" },
+        { "x": 200, "y": 400, "speed": 2.0, "type": "fighter" },
+        { "x": 600, "y": 100, "speed": 2.2, "type": "fighter" }
+      ]
+    },
+    {
+      "id": 1,
+      "timeLimit": 45,
+      "enemiesToKill": 8,
+      "enemies": [
+        { "x": 100, "y": 200, "speed": 3.0, "type": "fighter" },
+        { "x": 300, "y": 150, "speed": 4.0, "type": "fighter" },
+        { "x": 500, "y": 300, "speed": 3.5, "type": "fighter" },
+        { "x": 200, "y": 400, "speed": 4.5, "type": "fighter" },
+        { "x": 600, "y": 100, "speed": 5.0, "type": "fighter" },
+        { "x": 400, "y": 100, "speed": 5.2, "type": "fighter" },
+        { "x": 250, "y": 250, "speed": 5.1, "type": "fighter" },
+        { "x": 50, "y": 300, "speed": 4.8, "type": "fighter" }
+      ]
+    },
+    {
+      "id": 2,
+      "timeLimit": 40,
+      "enemiesToKill": 12,
+      "enemies": [
+        { "x": 350, "y": 250, "speed": 3.0, "type": "fighter" },
+        { "x": 450, "y": 350, "speed": 3.5, "type": "fighter" },
+        { "x": 400, "y": 300, "speed": 3.2, "type": "fighter" },
+        { "x": 500, "y": 200, "speed": 3.7, "type": "fighter" },
+        { "x": 300, "y": 300, "speed": 3.3, "type": "fighter" },
+        { "x": 100, "y": 100, "speed": 4.0, "type": "fighter" },
+        { "x": 700, "y": 500, "speed": 4.2, "type": "fighter" },
+        { "x": 250, "y": 450, "speed": 3.8, "type": "fighter" },
+        { "x": 550, "y": 150, "speed": 3.6, "type": "fighter" },
+        { "x": 200, "y": 200, "speed": 3.4, "type": "fighter" },
+        { "x": 600, "y": 400, "speed": 3.9, "type": "fighter" },
+        { "x": 400, "y": 500, "speed": 3.1, "type": "fighter" }
+      ]
+    },
+    {
+      "id": 3,
+      "timeLimit": 45,
+      "enemiesToKill": 15,
+      "enemies": [
+        { "x": 50, "y": 50, "speed": 6.5, "type": "fighter" },
+        { "x": 750, "y": 50, "speed": 7.0, "type": "fighter" },
+        { "x": 50, "y": 550, "speed": 7.2, "type": "fighter" },
+        { "x": 750, "y": 550, "speed": 6.8, "type": "fighter" },
+        { "x": 400, "y": 300, "speed": 5.5, "type": "fighter" },
+        { "x": 350, "y": 250, "speed": 5.8, "type": "fighter" },
+        { "x": 450, "y": 350, "speed": 6.2, "type": "fighter" },
+        { "x": 200, "y": 150, "speed": 7.5, "type": "fighter" },
+        { "x": 600, "y": 450, "speed": 7.8, "type": "fighter" },
+        { "x": 150, "y": 450, "speed": 6.9, "type": "fighter" },
+        { "x": 650, "y": 150, "speed": 7.1, "type": "fighter" },
+        { "x": 250, "y": 350, "speed": 6.7, "type": "fighter" },
+        { "x": 550, "y": 250, "speed": 6.9, "type": "fighter" },
+        { "x": 300, "y": 400, "speed": 7.3, "type": "fighter" },
+        { "x": 500, "y": 500, "speed": 7.6, "type": "fighter" }
+      ]
+    }
+  ]
+}
