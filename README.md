@@ -57,3 +57,12 @@ src/
 ├── SceneManager.ts - менеджер сцен
 └── index.ts - точка входу: ініціалізація PixiJS та завантаження ресурсів
 ```
+## Галерея
+<p align="center">
+<img src="screenshots/1.png" width="45%" />
+<img src="screenshots/2.png" width="45%" />
+</p>
+<p align="center">
+  <img src="screenshots/3.png" width="45%" />
+  <img src="screenshots/4.png" width="45%" />
+</p>
