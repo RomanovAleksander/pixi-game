@@ -28,8 +28,6 @@ export class Enemy extends Container {
       const frameIndex = i.toString().padStart(2, '0');
       const frameName = `rollSequence00${frameIndex}.png`;
 
-      // Pixi автоматично реєструє кожну текстуру з атласу під її іменем.
-      // Texture.from() дістає цей зареєстрований кадр.
       textures.push(Texture.from(frameName));
     }
 
@@ -46,13 +44,6 @@ export class Enemy extends Container {
 
     this.addChild(this.animatedSprite);
 
-    // this.sprite = Sprite.from(config.type);
-    // this.sprite.anchor.set(0.5);
-    // this.sprite.scale.set(2);
-    // this.addChild(this.sprite);
-
-    // Визначання випадкового початкового напрямку
-    // Math.random() > 0.5 дає true або false, це буде 1 або -1
     this.directionX = Math.random() > 0.5 ? 1 : -1;
     this.directionY = Math.random() > 0.5 ? 1 : -1;
 

@@ -36,9 +36,6 @@ export class GameScene extends Container implements IScene {
     if (this.isGameOver) return;
 
     const activeEnemiesCount = this.enemies.length;
-    // Залишаю в списку тільки живих ворогів. Після кліку і виклику destroy елемент зникає зі сцени,
-    // його координати очищуються, але при спробі апдейту на тік буде помилка, так як він лишися
-    // в масиві і пробує викликати update і зміну координат
     this.enemies = this.enemies.filter(enemy => !enemy.destroyed);
 
     const killedThisFrame = activeEnemiesCount - this.enemies.length;
@@ -52,7 +49,6 @@ export class GameScene extends Container implements IScene {
       enemy.update(framesPassed);
     });
 
-    // framesPassed у Pixi Ticker - це коефіцієнт кадрів. Щоб отримати секунди, ділю на 60
     const deltaSeconds = framesPassed / 60;
 
     this.levelManager.update(deltaSeconds);

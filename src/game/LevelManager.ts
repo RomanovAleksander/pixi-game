@@ -11,7 +11,6 @@ export class LevelManager {
     this.totalEnemies = totalEnemies;
   }
 
-  // Цей метод викликається щокадру. delta - це час у секундах (або частках)
   public update(deltaSeconds: number): void {
     this.timeLeft -= deltaSeconds;
   }
